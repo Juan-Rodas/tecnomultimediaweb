@@ -1,5 +1,3 @@
-
-
 body, h1, h4, ul, li{
   margin: 0;
   padding: 0;
@@ -8,15 +6,21 @@ body, h1, h4, ul, li{
 body {
   background-color: #C779EE;
 }
+p{
+  padding: 5px;
+}
 h1 {
   font-family: cursive;
-  font-size: 24px;
+  font-size: 30px;
 }
-h5, h4, p, a, ul, li {
+h5, h4, h2,h3,p, a, ul, li {
   font-family: sans-serif;
 }
 
-/* SELECTORES PERSONALIZADOS */
+.list{
+  margin-left: 50px;
+  padding-bottom: 15px;
+}
 .contenedor {
   width: 800px;
   background-color: white;
@@ -30,27 +34,14 @@ h5, h4, p, a, ul, li {
 .cuerpo {
   padding: 20px;
 }
-.pie {
-  color: white;
-  background-color: black;
-  padding: 20px;
-  text-align: center;
-}
 
 .img-portada {
-  background-image: url(../img/2.jpg);
+  background-image: url(../img/tulipan.jpg);
   padding: 300px 350px 0px 100px;
   color: white;
   font-size: 20px;
 }
 
-.vinculo {
-  color: yellow;
-}
-.vinculo:hover {
-  color: white;
-  text-decoration: none;
-}
 .marco-video {
   background-color: black;
   padding: 20px;
